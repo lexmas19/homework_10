@@ -19,6 +19,7 @@ main {
   width: 920px;
   height: 500px;
   align-items: center;
+  font-family: "Lexend Deca", sans-serif;
 }
 .card1 {
   width: 307px;
@@ -41,4 +42,50 @@ main {
   padding: 48px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+p {
+  color: white;
+  opacity: 75%;
+  width: 212px;
+  height: 125px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+h2 {
+  color: white;
+  height: 48px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Big Shoulders", sans-serif;
+  margin-top: 25px;
+}
+.card1 h2 {
+  width: 99px;
+}
+.card2 h2 {
+  width: 67px;
+}
+.card3 h2 {
+  width: 95px;
+}
+button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 70px;
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.card1 button {
+  color: #e28625;
+}
+.card2 button {
+  color: #006971;
+}
+.card3 button {
+  color: #004140;
 }
