@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main_card {
+  display: flex;
+  width: 920px;
+  height: 500px;
+  align-items: center;
+}
+.card1 {
+  width: 307px;
+  height: 500px;
+  padding: 48px;
+  background-color: #e28625;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.card2 {
+  width: 306px;
+  height: 500px;
+  background-color: #006971;
+  padding: 48px;
+}
+.card3 {
+  width: 307px;
+  height: 500px;
+  background-color: #004140;
+  padding: 48px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
